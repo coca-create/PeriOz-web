@@ -1,4 +1,3 @@
 gradio==4.35.0
 python-docx
-re
-os
+openpyxl
