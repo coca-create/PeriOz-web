@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gradio-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:iface --bind 0.0.0.0:8080"
