@@ -1,4 +1,0 @@
-gradio==4.35.0
-python-docx
-openpyxl
-gunicorn
